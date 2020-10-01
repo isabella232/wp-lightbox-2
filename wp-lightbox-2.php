@@ -31,7 +31,7 @@ function jqlb_init() {
 		define('ULFBEN_DONATE_URL', 'http://onlinewebapplication.com/');
 	}
 
-	define('JQLB_SCRIPT', 'wp-lightbox-2.min.js');
+	define('JQLB_SCRIPT', 'js/dist/wp-lightbox-2.min.js');
 	load_plugin_textdomain('jqlb', false, dirname( plugin_basename( __FILE__ ) ) . '/I18n/');	
 	add_action('admin_init', 'jqlb_register_settings');
 	//add_action('admin_menu', 'jqlb_register_menu_item');
